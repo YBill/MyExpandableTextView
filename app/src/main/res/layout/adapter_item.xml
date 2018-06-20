@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.myexpandabletextview.ExpandableTextView
+        android:id="@+id/expand_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        expandableTextView:animAlphaStart="1"
+        expandableTextView:animDuration="500"
+        expandableTextView:collapseDrawable="@mipmap/icon_expand_text_close"
+        expandableTextView:collapseMsg="收起"
+        expandableTextView:expandDrawable="@mipmap/icon_expand_text_open"
+        expandableTextView:expandMsg="展开"
+        expandableTextView:maxCollapsedLines="2"
+        expandableTextView:showEnd="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:drawablePadding="5dp"
+            android:textColor="#00ffff"/>
+    </com.myexpandabletextview.ExpandableTextView>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="14:02"
+        android:textColor="#9B9B9B"
+        android:textSize="11sp"/>
+
+</LinearLayout>
