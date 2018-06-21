@@ -82,4 +82,4 @@ public void setOnExpandStateChangeListener(@Nullable OnExpandStateChangeListener
 ```
 
 ## eg:
-![image](http://note.youdao.com/favicon.ico)
+![image](https://raw.githubusercontent.com/YBill/MyExpandableTextView/master/screenshots/sr_1.gif)
