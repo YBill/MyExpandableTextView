@@ -1,3 +1,5 @@
+## 在[Manabu-GT/ExpandableTextView](https://github.com/Manabu-GT/ExpandableTextView.git)上对原有的项目进行了修改
+
 # ExpandableTextView 用法
 
 ## XML
